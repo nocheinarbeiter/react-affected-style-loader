@@ -1,0 +1,4 @@
+/node_modules/
+/demo/dist/
+/demo/*.css.d.ts
+/lib/

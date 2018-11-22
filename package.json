@@ -1,0 +1,52 @@
+{
+  "name": "react-affected-style-loader",
+  "version": "0.1.0",
+  "description": "Load React Element Factories with TypeScript Definitions just from CSS",
+  "keywords": [
+    "webpack loader",
+    "react dom",
+    "react factory",
+    "react element factory",
+    "react element builder",
+    "css",
+    "css modules",
+    "stylesheet",
+    "bem",
+    "typescript definitions",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nocheinarbeiter/react-affected-style-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nocheinarbeiter/react-affected-style-loader/issues"
+  },
+  "scripts": {
+    "prepare": "rm -fr lib && npx tsc && node lib/base-typings-generator/generate.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "is-keyword-js": "^1.0.3",
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/loader-utils": "^1.1.3",
+    "@types/node": "^8.9.4",
+    "@types/react": "16.0.1",
+    "@types/react-dom": "16.0.1",
+    "@types/webpack": "^4.4.10",
+    "css-loader": "^1.0.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.5.0",
+    "typescript": "2.4.1",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
+  },
+  "peerDependencies": {
+    "react": "16.2.x",
+    "@types/react": "16.0.x"
+  }
+}

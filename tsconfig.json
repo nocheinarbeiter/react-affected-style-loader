@@ -1,0 +1,14 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "module": "CommonJS",
+    "target": "ES5",
+    "lib": ["ES5", "DOM", "ES2015.Collection"],
+    "outDir": "lib",
+    "removeComments": true
+  }
+}
