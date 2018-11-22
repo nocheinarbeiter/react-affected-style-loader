@@ -1,6 +1,6 @@
 {
   "name": "react-affected-style-loader",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Load React Element Factories with TypeScript Definitions just from CSS",
   "keywords": [
     "webpack loader",
